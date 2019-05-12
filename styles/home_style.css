@@ -1,0 +1,86 @@
+header{
+	z-index: 1;
+	width: 100%;
+	background-color: #405acc;
+	position: fixed;
+}
+header form{
+	position: absolute;
+}
+header form input{
+	position: relative;
+	margin-top: 12.5px;
+	padding: 8px 10px;
+	width: 400px;
+	font-size: 16px;
+	letter-spacing: 1.2px;
+	left: 100px;
+	border-radius: 2px;
+	border:none;
+}
+header nav{
+	height:60px;
+}
+header nav ul{
+	list-style: none;
+	position: absolute;
+	right: 15%;
+	height:80px;
+}
+header nav ul li{
+	float:left;
+	width: 120px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 20px;
+}
+header nav ul li .user-img{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	line-height: 0;
+	background-color: #ddd;
+	margin-left: -5px;
+	margin-right: 8px;
+}
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 0 5px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #6278f2;
+	border-radius: 20px;
+	height: 40px;
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(25%);
+}
+header nav ul li a span{
+	position: relative;
+	top: -10%;
+}
+header nav ul li a:hover{
+	background-color: #2a38a1b3;
+}
+header nav ul li a:focus{
+	outline: none;
+}
+header nav ul li #btn-logout{
+	width: 100px;
+	height: 40px;
+	border:2px solid white;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	margin-left: 150px;
+	border-radius: 10px;
+	position: relative;
+	top: 50%;
+	transform: translateY(25%);
+}
